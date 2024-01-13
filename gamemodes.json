@@ -1,0 +1,182 @@
+[
+    {
+        "api_name": "groundDouble",
+        "name": "Ground Fight 2v2"
+    },
+    {
+        "api_name": "pearlFightDouble",
+        "name": "Pearl Fight 2v2"
+    },
+    {
+        "api_name": "bedwarsNormalDouble",
+        "name": "Bedwars Normal 2v2"
+    },
+    {
+        "api_name": "voidSingle",
+        "name": "Void Fight Single"
+    },
+    {
+        "api_name": "flatFightDouble",
+        "name": "Flat Fight 2v2"
+    },
+    {
+        "api_name": "bedRushDouble",
+        "name": "Bed Rush 2v2"
+    },
+    {
+        "api_name": "sumoDuelsSolo",
+        "name": "Block Sumo Duels 1v1"
+    },
+    {
+        "api_name": "miniwarsDouble",
+        "name": "Miniwars Doubles"
+    },
+    {
+        "api_name": "bedwalls",
+        "name": "Bedwalls"
+    },
+    {
+        "api_name": "bedRushSingle",
+        "name": "Bed Rush 1v1"
+    },
+    {
+        "api_name": "bedwarsRushDouble",
+        "name": "Bedwars Rush 2v2"
+    },
+    {
+        "api_name": "stickFightSingle",
+        "name": "Stick Fight 1v1"
+    },
+    {
+        "api_name": "pearlFightSingle",
+        "name": "Pearl Fight 1v1"
+    },
+    {
+        "api_name": "bridgesDouble",
+        "name": "Bed Bridge Fight 2v2"
+    },
+    {
+        "api_name": "bedwarsNormalSingle",
+        "name": "Bedwars Normal 1v1"
+    },
+    {
+        "api_name": "bedwarsMegaSolo",
+        "name": "Bedwars Mega Solos"
+    },
+    {
+        "api_name": "bedwarsLateDouble",
+        "name": "Bedwars Late Game 2v2"
+    },
+    {
+        "api_name": "bowFightSingle",
+        "name": "Bow Fight 1v1"
+    },
+    {
+        "api_name": "voidDouble",
+        "name": "Void Fight 2v2"
+    },
+    {
+        "api_name": "bedwarsLateSingle",
+        "name": "Bedwars Late Game 1v1"
+    },
+    {
+        "api_name": "compBridgeSingle",
+        "name": "Comp Bed Bridge Fight 1v1"
+    },
+    {
+        "api_name": "resourceOldSingle",
+        "name": "Old Resource Collect 1v1"
+    },
+    {
+        "api_name": "bridgesSingle",
+        "name": "Bed Bridge Fight 1v1"
+    },
+    {
+        "api_name": "stickFightDouble",
+        "name": "Stick Fight 2v2"
+    },
+    {
+        "api_name": "ladderFightDouble",
+        "name": "Ladder Fight 2v2"
+    },
+    {
+        "api_name": "bedwarsEightTourney",
+        "name": "Bedwars Eight Tourney"
+    },
+    {
+        "api_name": "betaSumo",
+        "name": "Beta Block Sumo"
+    },
+    {
+        "api_name": "bedwarsMegaDouble",
+        "name": "Bedwars Mega Doubles"
+    },
+    {
+        "api_name": "resourceOldDouble",
+        "name": "Old Resource Collect 2v2"
+    },
+    {
+        "api_name": "bowFightDouble",
+        "name": "Bow Fight 2v2"
+    },
+    {
+        "api_name": "fourWayBridgeSingle",
+        "name": "Four Way Bed Bridge Fight"
+    },
+    {
+        "api_name": "miniwarsSolo",
+        "name": "Miniwars Solos"
+    },
+    {
+        "api_name": "rankedFoursPractice",
+        "name": "Ranked Fours Practice"
+    },
+    {
+        "api_name": "bedwarsRushSolo",
+        "name": "Bedwars Rush 1v1"
+    },
+    {
+        "api_name": "flatFightSingle",
+        "name": "Flat Fight 1v1"
+    },
+    {
+        "api_name": "resourceDouble",
+        "name": "Resource Collect 2v2"
+    },
+    {
+        "api_name": "partyGames",
+        "name": "Party Games"
+    },
+    {
+        "api_name": "obstacleSingle",
+        "name": "Obstacles 1v1"
+    },
+    {
+        "api_name": "resourceSingle",
+        "name": "Resource Collect 1v1"
+    },
+    {
+        "api_name": "rankedFours",
+        "name": "Ranked Fours"
+    },
+    {
+        "api_name": "ladderFightSingle",
+        "name": "Ladder Fight 1v1"
+    },
+    {
+        "api_name": "groundSingle",
+        "name": "Ground Fight 1v1"
+    },
+    {
+        "api_name": "bedwarsEightSolo",
+        "name": "Bedwars Eight Solos"
+    },
+    {
+        "api_name": "sumo",
+        "name": "Block Sumo"
+    },
+    {
+        "api_name": "sumoDuelsDouble",
+        "name": "Block Sumo Duels 2v2"
+    }
+]
