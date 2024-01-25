@@ -6,7 +6,7 @@ import time
 # settings
 API_KEY = ""
 MAX_REQUESTS_PER_MIN = 400
-NUM_PLAYERS_PER_GM = 25
+NUM_PLAYERS_PER_GM = 250
 OUTPUT_ERRORS = False
 
 
@@ -80,12 +80,16 @@ class API:
 
     async def get_player_stats(self, uuid: str) -> dict:
         json = await self._request(self.urls["player_stats"] + uuid, api=self.key)
-        stats = {}
+        stats = {"wins": 0, "kills": 0, "finals": 0, "beds": 0, "uuid": uuid, "ign": await self.get_ign(uuid)}
+
         for game_name, game_stats in json.get("stats", {}).items():
             if "wins" in game_stats:
                 stats[game_name] = game_stats["wins"]
-        stats["uuid"] = uuid
-        stats["ign"] = await self.get_ign(uuid)
+
+            for stat in ["wins", "kills", "finals", "beds"]:
+                if stat in game_stats:
+                    stats[stat] += game_stats[stat]
+
         return stats
 
     async def get_ign(self, uuid: str) -> str:
@@ -152,6 +156,18 @@ async def main() -> None:
     message += f"Time Elapsed: {hours}h {minutes}m {seconds}s\n"
 
     # create a message that can be put into an output file
+    # leaderboard for each stat
+    for stat in ["wins", "kills", "finals", "beds"]:
+        players.sort(key=lambda x: x.get(stat, 0), reverse=True)
+
+        # add the stat title
+        message += f"\n**{stat.upper()}**\n"
+
+        # add the top players by stat
+        for i, player in enumerate(players[:NUM_PLAYERS_PER_GM]):
+            message += f"{i+1}) {player.get('ign', player.get('uuid'))} - {player.get(stat, 0)} {stat}\n"
+
+    # leaderboard for each gamemode
     for gm in api.gamemodes:
         players.sort(key=lambda x: x.get(gm.get("api_name"), 0), reverse=True)
 
